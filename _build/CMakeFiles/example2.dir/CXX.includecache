@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/print.hpp
+iostream
+-
+fstream
+-
+string
+-
+
+/home/anipuka/projects/lab03/examples/example2.cpp
+print.hpp
+/home/anipuka/projects/lab03/examples/print.hpp
+fstream
+-
+string
+-
+
